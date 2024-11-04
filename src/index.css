@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Ubuntu:wght@300;400;700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -10,7 +10,7 @@
 
 body {
   background: #010103;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 @layer components {
@@ -35,4 +35,9 @@ body {
   .nav-li_a {
     @apply text-lg md:text-base transition-colors;
   }
+
+  .icon_link {
+    @apply border-2 rounded-full p-2 border-accent text-accent hover:bg-accent hover:text-white transition-colors duration-300;
+  }
+
 }

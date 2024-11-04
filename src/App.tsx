@@ -1,10 +1,13 @@
 import Header from "./sections/Header";
+import Home from "./sections/home/Home";
 
 function App() {
     return (
         <div className="container">
             <Header />
-            <main></main>
+            <main>
+                <Home />
+            </main>
         </div>
     );
 }
