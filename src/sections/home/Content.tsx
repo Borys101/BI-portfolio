@@ -4,7 +4,7 @@ const Content = () => {
     return (
         <div className="mt-8 text-white text-2xl sm:w-full lg:w-[40%] flex flex-col order-2 lg:order-1">
             <p>Software Developer</p>
-            <p className="text-7xl leading-none">
+            <p className="text-7xl leading-none mt-3">
                 Hello, I'm
                 <br />
                 <span className="text-accent">Borys Ivliev</span>
