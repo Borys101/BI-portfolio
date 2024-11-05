@@ -1,4 +1,5 @@
-import Header from "./sections/Header";
+import Achievements from "./sections/achievements/Achievements";
+import Header from "./sections/header/Header";
 import Home from "./sections/home/Home";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
             <Header />
             <main>
                 <Home />
+                <Achievements />
             </main>
         </div>
     );
