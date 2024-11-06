@@ -64,7 +64,7 @@ const Content = () => {
 
             {/* Анимация для описательного текста */}
             <AnimatedItem delay={0.2}>
-                <p className="text-base mt-5 leading-7 w-2/3 lg:w-full mx-auto">
+                <p className="text-base mt-5 leading-7 w-[75%] lg:w-full mx-auto">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     Enim cum veniam expedita deleniti optio temporibus quas.
                     Quasi architecto earum repellendus nostrum omnis eaque
